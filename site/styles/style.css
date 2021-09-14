@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&display=swap');
+:root{
+  --theme-primary:#051d2f;
+  --josefin:'Nunito Sans', sans-serif;
+  --theme-text:#ffffff;
+  --poppins:'Poppins', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+.site-header{
+padding: 10px 20px;
+    padding-right: 0;
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+    background: #ffffff;
+    height: 48px;
+    /* padding-bottom: 0; */
+    display: inline-flex;
+    align-items: center;
+    width: calc(100% - 20px);
+    justify-content: space-around;
+
+}
+.site-links a {
+margin-left: 5px;
+    margin-right: 5px;
+    color: #505050;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    font-weight: 600;
+    font-family: var(--josefin);
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+
+}
+.site-links a:hover{
+background: #4c4c4c1c;
+    border-bottom: 4px solid #7d7d7d;
+    border-radius: 2px;
+    height: calc(100% - 10px);
+}
+.site-links{
+height: calc(100% - 8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header img{
+  width: 40px;
+}
+.dashboard-link {
+text-decoration: none;
+    color: #3c3c3c;
+    font-weight: 600;
+    padding: 7px;
+    font-family: var(--josefin);
+}
+.dashboard-link:hover {
+    border-radius: 6px;
+    background: #c1c1c1a4;
+}
+.dashboard-link:hover{
+ 
+    border-radius: 6px;
+    background: #ffffff34;
+}
+.hero-text h1{
+  color: #fff;
+    font-size: 54px;
+    line-height: 130%;
+    margin-top: 1em;
+    margin: 0;
+    font-family: var(--poppins);
+}
+.hero-text p{
+  color: #ffffff;
+    font-size: 1.7em;
+    line-height: 140%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    width: 80%;
+    font-family: var(--poppins);
+}
+.site-hero{
+      display: flex;
+    padding: 40px;
+    align-items: center;
+    background: var(--theme-primary);
+}
+.hero-image{
+      display: flex;
+    padding: 40px;
+    flex: 1;
+    align-items: center;
+    background: var(--theme-primary);
+}
+
+.hero-text{
+  margin: 0;
+    padding: 20px;
+    flex: 1;
+}
+.hero-image img{
+  max-width: 100%;
+}
